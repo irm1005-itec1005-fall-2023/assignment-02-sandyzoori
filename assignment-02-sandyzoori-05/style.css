@@ -163,7 +163,7 @@ body, h1, h2, h3, p {
  /* Footer Section */
  footer {
   background-color: #1a1e29; /* Slightly darker blue footer background */
-  color: #fff; /* White text color for footer */
+  color: #edf0f2; /* White text color for footer */
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -185,12 +185,13 @@ body, h1, h2, h3, p {
  
  
  .footer-contact-info a {
-  color: #fff;
+  color: #d7dbdf;
   text-decoration: none;
  }
  
  
  .footer-contact-info a:hover {
+  color: black;
   text-decoration: underline;
  }
  
