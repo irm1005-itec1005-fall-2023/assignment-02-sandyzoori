@@ -1,33 +1,161 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 
+
 <head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
+ <!-- Set the page title -->
+ <title>Melad's Nap Company</title>
 
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <!-- Set the charset we're using to UTF-8 -->
+ <meta charset="utf-8" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
+ <!-- Set the screens default zoom / scale to 1 -->
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+
+ <!-- Specifies the document mode for Internet Explorer -->
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+ <!-- Link to your CSS files for styling -->
+ <link rel="stylesheet" href="./reset.css" />
+ <link rel="stylesheet" href="./style.css" />
+
+
 </head>
 
+
 <body>
-  <!--
+ <!-- Header Section -->
+ <header>
+   <div class="logo">
+     <img src="./images/napd.jpg" alt="Melad's Nap Company Logo" />
+     <h1>Melad's Nap Company</h1>
+   </div>
+   <nav>
+     <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#testimonials">Testimonials</a></li>
+    
+     </ul>
+   </nav>
+ </header>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
-  -->
-  <h1>Assignment 02</h1>
+ <main>
+   <!-- Hero Section -->
+   <section id="home" class="hero">
+     <img src="./images/napp.jpg" alt="Napping in Comfort" />
+     <h2>Welcome to Melad's Nap Company</h2>
+     <p>Your perfect destination for relaxation and rejuvenation.</p>
+     </section>
+     </main>
+
+
+<section id="services" class="content-section">
+   <h2>Our Services</h2>
+   <div class="service-box">
+     <h3>Relaxation Nap</h3>
+     <p>Our Relaxation Nap service is designed to help you unwind and recharge. Enjoy a peaceful nap in our cozy, quiet spaces, and wake up feeling refreshed and rejuvenated.</p>
+   </div>
+   <div class="service-box">
+     <h3>Power Nap</h3>
+     <p>The Power Nap service is perfect for those on the go. Experience a quick, energizing nap that boosts your productivity and focus, so you can conquer the day ahead.</p>
+   </div>
+   <div class="service-box">
+     <h3>Luxury Nap</h3>
+     <p>Indulge in the ultimate relaxation with our Luxury Nap service. You'll be pampered with premium amenities, including soft, high-thread-count sheets, soothing music, and aromatherapy to enhance your nap experience.</p>
+   </div>
+ </section>
+    <!-- Testimonials Section -->
+   <section id="testimonials" class="content-section">
+     <h2>What Our Clients Say</h2>
+     <div class="testimonial">
+       <p>"I had the best nap of my life at Melad's Nap Company. Highly recommended!"</p>
+       <p class="client">- Sandy Zoori</p>
+     </div>
+   </section>
+
+
+   <!-- FAQ Section -->
+<section
+       id="faq" class="content-section">
+         <h2>Frequently Asked Questions</h2>
+         <div class="faq-item">
+           <h3>How long are the nap sessions?</h3>
+           <p>Our nap sessions typically range from 20 minutes (Power Nap) to 60 minutes (Relaxation and Luxury Nap). You can choose the duration that suits your needs.</p>
+         </div>
+         <div class="faq-item">
+           <h3>Do you provide nap essentials like blankets and pillows?</h3>
+           <p>Absolutely! We provide comfortable blankets and pillows to ensure your nap is as cozy as can be.</p>
+         </div>
+         <div class="faq-item">
+           <h3>Can I book a nap in advance?</h3>
+           <p>Yes, you can! We recommend booking your nap session in advance to secure your preferred time slot. Simply click the "Book Now" button on our website.</p>
+         </div>
+         <div class="faq-item">
+           <h3>Are there any age restrictions for napping at Melad's?</h3>
+           <p>Napping at Melad's is suitable for adults. We aim to create a serene and peaceful environment, and we kindly request that all guests be 18 years or older.</p>
+         </div>
+         <div class="faq-item">
+           <h3>What safety measures do you have in place?</h3>
+           <p>Your safety and comfort are our top priorities. We maintain clean and sanitized nap spaces, and our staff ensures that each area is properly disinfected between sessions. Masks are optional but encouraged for all guests.</p>
+         </div>
+         <div class="faq-item">
+           <h3>Can I cancel or reschedule my nap session?</h3>
+           <p>Yes, you can reschedule or cancel your nap session. Please contact us at least 24 hours in advance to make changes to your booking.</p>
+         </div>
+         <div class="faq-item">
+           <h3>Are gift certificates available?</h3>
+           <p>Yes, we offer gift certificates! Treat your friends and loved ones to the gift of relaxation with our custom gift certificates. Contact us for more details.</p>
+         </div>
+       </section>
+      
+
+
+ <!-- Call to Action Section -->
+ <section class="cta">
+       <h2>Ready to Nap?</h2>
+       <p>Join our napping community and embark on a journey to ultimate relaxation.</p>
+       <form action="booking-success.html" method="post">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required>
+           <button type="submit" class="cta-button">Book Now</button>
+           </form>
+
+ </section>
+
+
+ <!-- Footer Section -->
+ <footer>
+   <div class="logo">
+     <img src="./images/napd.jpg" alt="Melad's Nap Company Logo" />
+     <h3>Melad's Nap Company</h3>
+   </div>
+
+
+ <!-- Navigation links in my header section -->
+<nav>
+   <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+     <li><a href="#faq">FAQ</a></li>
+     <li><a href="#contact">Contact Us</a></li>
+   </ul>
+ </nav>
+   <div class="contact-info">
+     <p>Email: <a href="milad.kasnona@yahoo.com">milad.kasnona@yahoo.com</a></p>
+     <p>Phone: 619-792-2590</p>
+   </div>
+   <p>&copy; 2023 Melad's Nap Company</p>
+ </footer>
 </body>
+
 
 </html>

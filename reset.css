@@ -1,73 +1,198 @@
-/* CSS Reset
-   https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-
-/*
-1. Use a more-intuitive box-sizing model.
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-/*
-2. Remove default margin
-*/
-* {
+body, h1, h2, h3, p {
   margin: 0;
-}
-/*
-3. Allow percentage-based heights in the application
-*/
-html,
-body {
-  height: 100%;
-}
-/*
-Typographic tweaks!
-4. Add accessible line-height
-5. Improve text rendering
-*/
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-/*
-6. Improve media defaults
-*/
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-/*
-7. Remove built-in form typography styles
-*/
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-/*
-8. Avoid text overflows
-*/
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-/*
-9. Create a root stacking context
-*/
-#root,
-#__next {
-  isolation: isolate;
-}
+  padding: 0;
+ }
+ 
+ 
+ /* Apply a background color to the entire page */
+ body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: 'Arial', sans-serif; /* Default font */
+  line-height: 1.6;
+ }
+ 
+ 
+ /* Header Section */
+ header {
+  background-color: #1a1e29;
+  color: #fff; /* White text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Tahoma', sans-serif; /* Font for the header text */
+ }
+ 
+ 
+ /* Style the logo and site name in the header */
+ .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+ }
+ 
+ 
+ /* Style the navigation links */
+ nav ul {
+  list-style-type: none;
+  display: flex;
+ }
+ 
+ 
+ nav ul li {
+  margin: 0 20px;
+ }
+ 
+ 
+ /* Style the navigation links */
+ nav ul li a {
+  text-decoration: none;
+  color: #fff; /* White text color for navigation links */
+  font-weight: bold;
+ }
+ 
+ 
+ nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+ }
+ 
+ 
+ /* Style the hero section */
+ .hero {
+  background-color: #b4b4be; /* Light blue background */
+  color: #000000; /* White text color */
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'Tahoma', sans-serif; /* Font for headings in the hero section */
+ }
+ 
+ 
+ .hero h2 {
+  font-size: 2.5em;
+ }
+ 
+ 
+ .hero p {
+  font-size: 1.2em;
+  margin-top: 20px;
+ }
+ 
+ 
+ .cta-button {
+  background-color: #202124; /* Slightly darker blue button */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+ }
+ 
+ 
+ .cta-button:hover {
+  background-color: #8090b1; /* Darker blue on hover */
+ }
+ 
+ 
+ /* Service Boxes */
+ .service-box {
+  background-color: #fff; /* White service box background */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+ }
+ 
+ 
+ .service-box h3 {
+  font-size: 1.5em;
+ }
+ 
+ 
+ /* Testimonials Section */
+ .testimonial {
+  background-color: #85969d; /* Light blue testimonial background */
+  color: #fff; /* White text color for testimonials */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-family: 'Tahoma', sans-serif; /* Font for testimonial text */
+ }
+ 
+ 
+ .client {
+  font-style: italic;
+ }
+ 
+ 
+ /* FAQ Section */
+ .faq-item {
+  background-color: #fff; /* White FAQ item background */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif; /* Font for FAQ text */
+ }
+ 
+ 
+ .faq-item h3 {
+  font-size: 1.5em;
+ }
+ 
+ 
+ /* Call to Action Section */
+ .cta {
+  background-color: #444b59; /* Light blue CTA background */
+  color: #fff; /* White text color for CTA */
+  text-align: center;
+  padding: 60px 0;
+  font-family: 'Tahoma', sans-serif; /* Font for headings in the CTA section */
+ }
+ 
+ 
+ .cta h2 {
+  font-size: 2em;
+ }
+ 
+ 
+ .cta p {
+  font-size: 1.2em;
+ }
+ 
+ 
+ /* Footer Section */
+ footer {
+  background-color: #1a1e29; /* Slightly darker blue footer background */
+  color: #fff; /* White text color for footer */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Tahoma', sans-serif; /* Font for footer text */
+ }
+ 
+ 
+ .footer-logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+ }
+ 
+ 
+ .footer-contact-info {
+  text-align: right;
+ }
+ 
+ 
+ .footer-contact-info a {
+  color: #fff;
+  text-decoration: none;
+ }
+ 
+ 
+ .footer-contact-info a:hover {
+  text-decoration: underline;
+ }
+ 
+ 
+ 
