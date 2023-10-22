@@ -1,84 +1,73 @@
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
- }
- 
- 
- /* Apply a background color to the entire page */
- body {
+}
+
+/* Apply a background color to the entire page */
+body {
   background-color: #f0f0f0; /* Light gray background */
   font-family: 'Arial', sans-serif; /* Default font */
   line-height: 1.6;
- }
- 
- 
- /* Header Section */
- header {
-  background-color: #1a1e29;
+}
+
+/* Header Section */
+header {
+  background-color: #87CEEB; 
   color: #fff; /* White text color */
   padding: 20px;
   display: flex;
   justify-content: space-between;
   font-family: 'Tahoma', sans-serif; /* Font for the header text */
- }
- 
- 
- /* Style the logo and site name in the header */
- .logo img {
+}
+
+/* Style the logo and site name in the header */
+.logo img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
- }
- 
- 
- /* Style the navigation links */
- nav ul {
+}
+
+/* Style the navigation links */
+nav ul {
   list-style-type: none;
   display: flex;
- }
- 
- 
- nav ul li {
+}
+
+nav ul li {
   margin: 0 20px;
- }
- 
- 
- /* Style the navigation links */
- nav ul li a {
+}
+
+/* Style the navigation links */
+nav ul li a {
   text-decoration: none;
   color: #fff; /* White text color for navigation links */
   font-weight: bold;
- }
- 
- 
- nav ul li a:hover {
+}
+
+nav ul li a:hover {
   text-decoration: underline; /* Underline on hover */
- }
- 
- 
- /* Style the hero section */
- .hero {
-  background-color: #b4b4be; /* Light blue background */
-  color: #000000; /* White text color */
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #87CEEB; /* Light blue background */
+  color: #fff; /* White text color */
   text-align: center;
   padding: 100px 0;
   font-family: 'Tahoma', sans-serif; /* Font for headings in the hero section */
- }
- 
- 
- .hero h2 {
+}
+
+.hero h2 {
   font-size: 2.5em;
- }
- 
- 
- .hero p {
+}
+
+.hero p {
   font-size: 1.2em;
   margin-top: 20px;
- }
- 
- 
- .cta-button {
-  background-color: #202124; /* Slightly darker blue button */
+}
+
+.cta-button {
+  background-color: #3498db; /* Slightly darker blue button */
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -87,112 +76,94 @@ body, h1, h2, h3, p {
   display: inline-block;
   border-radius: 5px;
   transition: background-color 0.3s;
- }
- 
- 
- .cta-button:hover {
-  background-color: #8090b1; /* Darker blue on hover */
- }
- 
- 
- /* Service Boxes */
- .service-box {
+}
+
+.cta-button:hover {
+  background-color: #2771a1; /* Darker blue on hover */
+}
+
+/* Service Boxes */
+.service-box {
   background-color: #fff; /* White service box background */
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
- }
- 
- 
- .service-box h3 {
+}
+
+.service-box h3 {
   font-size: 1.5em;
- }
- 
- 
- /* Testimonials Section */
- .testimonial {
-  background-color: #85969d; /* Light blue testimonial background */
+}
+
+/* Testimonials Section */
+.testimonial {
+  background-color: #87CEEB; /* Light blue testimonial background */
   color: #fff; /* White text color for testimonials */
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
   font-family: 'Tahoma', sans-serif; /* Font for testimonial text */
- }
- 
- 
- .client {
+}
+
+.client {
   font-style: italic;
- }
- 
- 
- /* FAQ Section */
- .faq-item {
+}
+
+/* FAQ Section */
+.faq-item {
   background-color: #fff; /* White FAQ item background */
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
   font-family: 'Arial', sans-serif; /* Font for FAQ text */
- }
- 
- 
- .faq-item h3 {
+}
+
+.faq-item h3 {
   font-size: 1.5em;
- }
- 
- 
- /* Call to Action Section */
- .cta {
-  background-color: #444b59; /* Light blue CTA background */
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: #87CEEB; /* Light blue CTA background */
   color: #fff; /* White text color for CTA */
   text-align: center;
   padding: 60px 0;
   font-family: 'Tahoma', sans-serif; /* Font for headings in the CTA section */
- }
- 
- 
- .cta h2 {
+}
+
+.cta h2 {
   font-size: 2em;
- }
- 
- 
- .cta p {
+}
+
+.cta p {
   font-size: 1.2em;
- }
- 
- 
- /* Footer Section */
- footer {
-  background-color: #1a1e29; /* Slightly darker blue footer background */
+}
+
+/* Footer Section */
+footer {
+  background-color: #3498db; /* Slightly darker blue footer background */
   color: #fff; /* White text color for footer */
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Tahoma', sans-serif; /* Font for footer text */
- }
- 
- 
- .footer-logo img {
+}
+
+.footer-logo img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
- }
- 
- 
- .footer-contact-info {
+}
+
+.footer-contact-info {
   text-align: right;
- }
- 
- 
- .footer-contact-info a {
+}
+
+.footer-contact-info a {
   color: #fff;
   text-decoration: none;
- }
- 
- 
- .footer-contact-info a:hover {
+}
+
+.footer-contact-info a:hover {
   text-decoration: underline;
- }
- 
- 
- 
+}
